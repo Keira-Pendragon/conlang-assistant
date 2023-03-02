@@ -1,0 +1,7 @@
+/**
+ * WordHelper
+ */
+public class WordHelper {
+
+    
+}

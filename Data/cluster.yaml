@@ -1,0 +1,54 @@
+# YAML file for onset, mid-word, and coda consonant clusters, and vowels
+onset:
+  voiceless:
+    1_letter: [k, t, p, s, ɕ, f, θ] 
+    2_letters: [ks, tf, ps]
+    3_letters: [kst, ptf, sth]
+  neutral:
+    1_letter: [ŋ, n, m, r, l, h]
+    2_letters: [nr, lh, rm]
+    3_letters: [rlm, nhr, lhn]
+  voiced:
+    1_letter: [g, d, b, z, ʑ, v, ð]
+    2_letters: [gv, zb, ðg]
+    3_letters: [vzd, ðʑb, gvd]
+mid_word:
+  voiceless:
+    1_letter: [k, t, p, s, ɕ, f, θ] 
+    2_letters: [ks, tf, ps]
+    3_letters: [kst, ptf, sth]
+  neutral:
+    1_letter: [ŋ, n, m, r, l, h]
+    2_letters: [nr, lh, rm]
+    3_letters: [rlm, nhr, lhn]
+  voiced:
+    1_letter: [g, d, b, z, ʑ, v, ð]
+    2_letters: [gv, zb, ðg]
+    3_letters: [vzd, ðʑb, gvd]
+coda:
+  voiceless:
+    1_letter: [k, t, p, s, ɕ, f, θ] 
+    2_letters: [ks, tf, ps]
+    3_letters: [kst, ptf, sth]
+  neutral:
+    1_letter: [ŋ, n, m, r, l, h]
+    2_letters: [nr, lh, rm]
+    3_letters: [rlm, nhr, lhn]
+  voiced:
+    1_letter: [g, d, b, z, ʑ, v, ð]
+    2_letters: [gv, zb, ðg]
+    3_letters: [vzd, ðʑb, gvd]
+
+# Vowels
+vowels:
+  mood: [i, e, a, o, u] # example data point
+  tense: [i, e, a, u]
+  genus: [i, e, a, u, ɪ, o]
+  ad: [ɪ, iɪ, eɪ, aɪ, oɪ, uɪ]
+  adhesive: [ɪo, io, eo, ao, uo]
+
+# General vowels
+general:
+  onset: [a, e, o, u, i, ɪ]
+  midword: [a, e, o, u, i, ɪ]
+  coda: [a, e, o, u, i, ɪ]

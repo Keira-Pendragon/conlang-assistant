@@ -1,0 +1,7 @@
+/**
+ * SentenceHelper
+ */
+public class SentenceHelper {
+
+    
+}
